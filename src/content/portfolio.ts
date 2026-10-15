@@ -346,15 +346,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "Squawk",
-    description:
-      "AI copilot for air traffic controllers. Transcribes ATC radio with a Whisper model fine-tuned on 21,000+ real clips (WER 0.71 → 0.16), checks pilot readbacks against controller instructions, and replans 50+ aircraft in under 200 ms. Hack the North 2026 winner (ElevenLabs track) and Baseten finalist.",
-    tags: ["Fine-tuned Whisper", "Monte Carlo Simulation", "Baseten · ElevenLabs"],
-    image: "/img/projects/squawk.png",
-    link: "https://www.squawk.fit/",
-    featured: true,
-  },
-  {
     name: "SignalM",
     description:
       "Market regime detection and prediction platform using PCA, HMM, and ML to classify market conditions (Calm, Crisis, Elevated Stress, Transition) across major indices, with custom horizon forecasting and interactive visualizations.",
@@ -370,6 +361,15 @@ export const projects: Project[] = [
     tags: ["Quant Research", "Backtesting", "LLM Agents"],
     image: "/img/projects/apollo.png",
     link: "https://github.com/Akishai18",
+    featured: true,
+  },
+  {
+    name: "Squawk",
+    description:
+      "AI copilot for air traffic controllers. Transcribes ATC radio with a Whisper model fine-tuned on 21,000+ real clips (WER 0.71 → 0.16), checks pilot readbacks against controller instructions, and replans 50+ aircraft in under 200 ms. Hack the North 2026 winner (ElevenLabs track) and Baseten finalist.",
+    tags: ["Fine-tuned Whisper", "Monte Carlo Simulation", "Baseten · ElevenLabs"],
+    image: "/img/projects/squack.png",
+    link: "https://www.squawk.fit/",
     featured: true,
   },
   {
